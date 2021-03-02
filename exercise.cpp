@@ -5,7 +5,7 @@ Create 2 classes
    1. SimpleCalculator -takes input of 2 numbers using a utility function and perform +,-,*,/ and displays the results using another funtions.
 
    2. ScientificCalculator - Takes input of 2 numbers using a utility function and performs any four scientific operation of your choice.
-   Create another class HybridCalculator and inherit it using these 2 classes:
+   Create another class HybridCalculator and Inherit it using these 2 classes:
    Q1. What type of inheritance are you using?
    Q2. Which mode of inheritance are you using?
    Q3. Create an object of HybridCalculator and display results ot simple and scientfic calculator.
