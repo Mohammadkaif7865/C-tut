@@ -47,7 +47,7 @@ class scientificCalculator : public simplecalculator{
         void total_Volume(void){
             cout<<"Enter the height and radius of cone and cylinder  :";
             cin>>radius>>height;
-            cout<<"The total volume is :"<<volumeof_cylinder(radius,height)+volumeof_cone(radius,height);
+            cout<<"The total volume is :"<<volumeof_cylinder(radius,height)+volumeof_cone(radius,height)<<" cm^3 ";
         }
         
 };
