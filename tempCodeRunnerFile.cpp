@@ -1,1 +1,5 @@
-t
+vedclass * derived_class_pointer;
+//    derived_class_pointer = &obj_derived;
+//    derived_class_pointer->var_derived = 98;
+//    derived_class_pointer->var_base= 567498;
+//    derived_class_pointer->display();

@@ -2,13 +2,10 @@
 using namespace std;
 class class1
 {
-    int a;
 
 public:
-    void set_Data_1(int x)
-    {
-        a = x;
-    }
+    int a = 1;
+  
     class1(){
         cout<<"Construtor1 is being called !!!!!!"<<endl;
     }
@@ -22,13 +19,10 @@ public:
 };
 class class2 
 {
-    int b;
 
 public:
-    void set_Data_2(int x)
-    {
-        b = x;
-    }
+    int a = 0;
+   
     class2(){
         cout<<"Construtor2 is being called !!!!!!"<<endl;
     }
@@ -37,18 +31,15 @@ public:
     }
     void display(void)
     {
-        cout << "The number of class 2 is : " << b << endl;
+        cout << "The number of class 2 is : " << a << endl;
     }
 };
-class class3 : virtual public class2 , virtual public class1
+class class3 :  public class2 , virtual  public class1
 {
-    int c;
 
 public:
-    void set_Data_3(int x)
-    {
-        c = x;
-    }
+    int a=3;
+    
     class3(){
         cout<<"Construtor3 is being called !!!!!!"<<endl;
     }
@@ -57,7 +48,7 @@ public:
     }
     void display(void)
     {
-        cout << "The number of class 3 is : " << c << endl;
+        cout << "The number of class 3 is : " << a << endl;
     }
 };
 
@@ -78,6 +69,6 @@ If there are multiple virtual base are then constructed beforer the serived clas
 int main()
 {
     class3 t;
-
+    t.display();
     return 0;
 }
