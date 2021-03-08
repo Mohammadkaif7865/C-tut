@@ -16,7 +16,7 @@ class test{
       }
 };
 int main(){
-    test <> obj(10,'4');
+    test <> obj('a', '4');
     obj.show();
     return 0;
 }
