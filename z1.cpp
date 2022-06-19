@@ -19,7 +19,7 @@ int main()
     {
         cout << arr[i] << endl;
     }
-// * That's how we cheat. and 22 22 20 19
+// * That's how we cheat. and 22 22 20 190702022
     return 0; 
 
 }
