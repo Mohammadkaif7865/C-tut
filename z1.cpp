@@ -19,8 +19,8 @@ int main()
     {
         cout << arr[i] << endl;
     }
-// * That's how we cheat. and 22
-    return 0;
+// * That's how we cheat. and 22 22
+    return 0; 
 
 }
 // * This repo is so old that it could bw used to make back dated commit  not 13 07 2022 23 07 2022 30 6 22 27 26 25
