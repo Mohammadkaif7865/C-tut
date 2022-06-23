@@ -19,7 +19,7 @@ int main()
     {
         cout << arr[i] << endl;
     }
-// * That's how we cheat
+// * That's how we cheat.
     return 0;
 
 }
