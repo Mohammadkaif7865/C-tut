@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    int arr[] = {12, 32, 213, 342, 124, 54, 56};
+    int arr[] = {12, 32, -1, 13, 12, -1, 213, 342, 124, 54, 56};
     for (int i = 0; i < sizeof(arr) / sizeof(arr[0]); i++)
     {
         for (int i = 0; i < sizeof(arr) / sizeof(arr[0]); i++)
@@ -15,5 +15,11 @@ int main()
             }
         }
     }
+    for (int i = 0; i < sizeof(arr) / sizeof(arr[0]); i++)
+    {
+        cout << arr[i] << endl;
+    }
+
     return 0;
 }
+// ? This is the O(n^2) implementation of sorting bubble sort
