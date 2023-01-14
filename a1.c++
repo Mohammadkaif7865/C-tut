@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 // * This is a better comment
-//? This is sum function 
+//? This is sum function
+// This is a normal comment 
 int sum (int a , int b){
     return a + b;
 }
