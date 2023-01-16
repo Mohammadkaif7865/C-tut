@@ -12,6 +12,7 @@ int main(){
    cout << "Hello there!" << endl;
    return 0;
 }
+// # This is the most hightlighted comment
 /*
 ! This is the json file of better comment
  {
